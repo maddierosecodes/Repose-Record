@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1647257326645" clover="3.2.0">
-  <project timestamp="1647257326645" name="All files">
-    <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3" elements="10" coveredelements="10" complexity="0" loc="7" ncloc="7" packages="1" files="2" classes="2"/>
+<coverage generated="1647258013832" clover="3.2.0">
+  <project timestamp="1647258013832" name="All files">
+    <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4" elements="12" coveredelements="12" complexity="0" loc="8" ncloc="8" packages="1" files="2" classes="2"/>
     <file name="getInput.js" path="/Users/maddiehughes/Code/projects/logic-blocks/Repose-Record/getInput.js">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <line num="3" count="1" type="stmt"/>
@@ -9,11 +9,12 @@
       <line num="7" count="1" type="stmt"/>
     </file>
     <file name="kata.js" path="/Users/maddiehughes/Code/projects/logic-blocks/Repose-Record/kata.js">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <line num="4" count="1" type="stmt"/>
-      <line num="6" count="3" type="stmt"/>
-      <line num="11" count="3" type="stmt"/>
-      <line num="14" count="1" type="stmt"/>
+      <line num="6" count="2" type="stmt"/>
+      <line num="12" count="2" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="17" count="2" type="stmt"/>
     </file>
   </project>
 </coverage>

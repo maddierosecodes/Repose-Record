@@ -1,4 +1,4 @@
-import { laziestGuard } from './kata';
+import { laziestGuard, calculateAnswer } from './kata';
 import { getInputData } from './getInput';
 import { expect } from '@jest/globals';
 
@@ -21,6 +21,20 @@ describe('laziestGuard', () => {
       expect(laziestGuard(data)).toEqual(
         expect.objectContaining({ guardId: 10 })
       );
+    });
+  });
+});
+
+describe('calculateAnswer', () => {
+  it('should return a number', () => {
+    expect(typeof calculateAnswer({ guardId: 0, minuteAsleep: 0 })).toBe(
+      'number'
+    );
+    expect(calculateAnswer({ guardId: 0, minuteAsleep: 0 })).toBe(0);
+  });
+  it.skip('should return the number of minutes asleep * the guard id', () => {
+    return getInputData('./example.js').then((data) => {
+      expect(calculateAnswer(data)).toBe('?');
     });
   });
 });
