@@ -1,4 +1,4 @@
-import { getInputData } from './getInput.js';
+import { getInputData } from './data/getInput.js';
 import { calculateAnswer, calculateAnswer2, mode } from './utils.js';
 
 // #1 Find the guard that has the most minutes asleep & what minute that guard slept the most
@@ -190,7 +190,7 @@ export const mostPredictableGuard = (guardList) => {
 };
 
 // Run File to see Answers
-getInputData('./input.txt').then((data) => {
+getInputData('./data/input.txt').then((data) => {
   console.log(calculateAnswer(laziestGuard(data)), 'answer 1');
   console.log(calculateAnswer2(mostPredictableGuard(data), 'answer 2'));
 });
