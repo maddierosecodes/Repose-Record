@@ -2,6 +2,7 @@ import { getInputData } from './data/getInput.js';
 import { calculateAnswer, calculateAnswer2, mode } from './utils.js';
 
 // #1 Find the guard that has the most minutes asleep & what minute that guard slept the most
+// #TODO: extract reusable logic into utility functions
 export const laziestGuard = (guardList) => {
   if (guardList.length === 0) return { guardId: 0, timeSlept: 0, mostSlept: 0 };
   // format the data into usable objects
@@ -96,6 +97,7 @@ export const laziestGuard = (guardList) => {
 };
 
 // #2 Find the guard that has the most commonly occurring minute asleep
+// #TODO: Remove extra steps leftover from first challenge
 export const mostPredictableGuard = (guardList) => {
   if (guardList.length === 0) return { guardId: 0, timeSlept: 0, mostSlept: 0 };
   // format the data into usable objects

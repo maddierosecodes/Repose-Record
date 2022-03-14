@@ -5,7 +5,7 @@ export const calculateAnswer = (guardObj) => {
 
 //  Calculate the minute asleep * guardId
 export const calculateAnswer2 = (guardObj) => {
-	console.log(guardObj)
+	
   return guardObj.guardId * guardObj.mostSlept[0];
 };
 
