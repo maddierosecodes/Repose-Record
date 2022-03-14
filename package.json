@@ -1,0 +1,35 @@
+{
+  "name": "repose-record",
+  "version": "1.0.0",
+  "description": "",
+  "main": "kata.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "env": {
+    "test": {
+      "plugins": [
+        "@babel/plugin-transform-modules-commonjs"
+      ]
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maddierosecodes/Repose-Record.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maddierosecodes/Repose-Record/issues"
+  },
+  "homepage": "https://github.com/maddierosecodes/Repose-Record#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/node": "^7.16.8",
+    "@babel/plugin-transform-modules-commonjs": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "jest": "^27.5.1"
+  }
+}
